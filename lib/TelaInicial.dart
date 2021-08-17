@@ -22,6 +22,26 @@ class _TelaInicialState extends State<TelaInicial> {
         ),
         centerTitle: true,
       ),
+      body: Center(
+        child: Container(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(32.0),
+                child: Text(
+                  'Trabalhando com Git',
+                  style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
